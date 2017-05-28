@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, IndexLink } from 'react-router'
-import Header from './common/header'
+import Header from './common/Header'
 import {connect} from 'react-redux'
 
 // This is a class-based component because the current

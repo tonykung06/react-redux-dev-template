@@ -1,1 +1,1 @@
-export default 700
+export default 1500
