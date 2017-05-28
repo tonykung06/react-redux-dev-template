@@ -1,6 +1,6 @@
 import React from 'react'
 import TextInput from '../common/TextInput'
-import SelectInupt from '../common/SelectInupt'
+import SelectInput from '../common/SelectInput'
 
 const CourseForm = ({course, allAuthors, onSave, onChange, loading, errors}) => {
   return (
@@ -13,7 +13,7 @@ const CourseForm = ({course, allAuthors, onSave, onChange, loading, errors}) => 
         onChange={onChange}
         error={errors.title}
       />
-      <SelectInupt
+      <SelectInput
         name="authorId"
         label="Author"
         value={course.authorId}
